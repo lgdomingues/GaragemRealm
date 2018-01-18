@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1ED6FA19F6EC7865FAE1DE /* Pods_GaragemRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F2F5BA953D355235DC984B /* Pods_GaragemRealm.framework */; };
 		43E21C0E201018DC0088C637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E21C0D201018DC0088C637 /* AppDelegate.swift */; };
-		43E21C10201018DC0088C637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E21C0F201018DC0088C637 /* ViewController.swift */; };
 		43E21C13201018DC0088C637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E21C11201018DC0088C637 /* Main.storyboard */; };
 		43E21C15201018DC0088C637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E21C14201018DC0088C637 /* Assets.xcassets */; };
 		43E21C18201018DC0088C637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E21C16201018DC0088C637 /* LaunchScreen.storyboard */; };
+		43E21C2020101DCE0088C637 /* GaragemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E21C1F20101DCE0088C637 /* GaragemTableViewController.swift */; };
+		43E21C2220101E400088C637 /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E21C2120101E400088C637 /* Carro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		43E21C0A201018DC0088C637 /* GaragemRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaragemRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E21C0D201018DC0088C637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43E21C0F201018DC0088C637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43E21C12201018DC0088C637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43E21C14201018DC0088C637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43E21C17201018DC0088C637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43E21C19201018DC0088C637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E21C1F20101DCE0088C637 /* GaragemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaragemTableViewController.swift; sourceTree = "<group>"; };
+		43E21C2120101E400088C637 /* Carro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
+		AE811A3E2EA4FF16D766B2FD /* Pods-GaragemRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaragemRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaragemRealm/Pods-GaragemRealm.release.xcconfig"; sourceTree = "<group>"; };
+		C9F2F5BA953D355235DC984B /* Pods_GaragemRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaragemRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD0EC0EB7C1E8215083DAA1 /* Pods-GaragemRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaragemRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaragemRealm/Pods-GaragemRealm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1ED6FA19F6EC7865FAE1DE /* Pods_GaragemRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				43E21C0C201018DC0088C637 /* GaragemRealm */,
 				43E21C0B201018DC0088C637 /* Products */,
+				5B45BEF19E7656D42F49A677 /* Pods */,
+				CBCE7D571BE8D762BDABA9DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +64,31 @@
 			isa = PBXGroup;
 			children = (
 				43E21C0D201018DC0088C637 /* AppDelegate.swift */,
-				43E21C0F201018DC0088C637 /* ViewController.swift */,
 				43E21C11201018DC0088C637 /* Main.storyboard */,
+				43E21C1F20101DCE0088C637 /* GaragemTableViewController.swift */,
+				43E21C2120101E400088C637 /* Carro.swift */,
 				43E21C14201018DC0088C637 /* Assets.xcassets */,
 				43E21C16201018DC0088C637 /* LaunchScreen.storyboard */,
 				43E21C19201018DC0088C637 /* Info.plist */,
 			);
 			path = GaragemRealm;
+			sourceTree = "<group>";
+		};
+		5B45BEF19E7656D42F49A677 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFD0EC0EB7C1E8215083DAA1 /* Pods-GaragemRealm.debug.xcconfig */,
+				AE811A3E2EA4FF16D766B2FD /* Pods-GaragemRealm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBCE7D571BE8D762BDABA9DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F2F5BA953D355235DC984B /* Pods_GaragemRealm.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43E21C1C201018DC0088C637 /* Build configuration list for PBXNativeTarget "GaragemRealm" */;
 			buildPhases = (
+				9F997D0CD34A9C257498E337 /* [CP] Check Pods Manifest.lock */,
 				43E21C06201018DC0088C637 /* Sources */,
 				43E21C07201018DC0088C637 /* Frameworks */,
 				43E21C08201018DC0088C637 /* Resources */,
+				C68E5985E51BC25C6561E638 /* [CP] Embed Pods Frameworks */,
+				DBE93A6C2BC1DDD86B9AA4B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +161,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9F997D0CD34A9C257498E337 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GaragemRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C68E5985E51BC25C6561E638 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GaragemRealm/Pods-GaragemRealm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaragemRealm/Pods-GaragemRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE93A6C2BC1DDD86B9AA4B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaragemRealm/Pods-GaragemRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43E21C06201018DC0088C637 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43E21C10201018DC0088C637 /* ViewController.swift in Sources */,
+				43E21C2020101DCE0088C637 /* GaragemTableViewController.swift in Sources */,
+				43E21C2220101E400088C637 /* Carro.swift in Sources */,
 				43E21C0E201018DC0088C637 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +359,7 @@
 		};
 		43E21C1D201018DC0088C637 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD0EC0EB7C1E8215083DAA1 /* Pods-GaragemRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +374,7 @@
 		};
 		43E21C1E201018DC0088C637 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE811A3E2EA4FF16D766B2FD /* Pods-GaragemRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
